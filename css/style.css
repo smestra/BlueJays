@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #120101de;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  border: solid black 2px;
+  background-color: #ffebcd;
+  height: 80px;
+}
+
+.logo {
+  float: left;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.rounded-image {
+  border-radius: 55%;
+  overflow: hidden;
+  width: 115px;
+  height: 65px;
+}
+
+.rounded-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.nav {
+  float: right;
+  margin: 24px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+
+.banner {
+  background-image: url(../img/rogerBanner.png);
+  background-size: cover;
+  height: 650px;
+}
+
+.banner h1 {
+  background-color: rgba(245, 245, 220, 0.317);
+  color: #6d0000;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 2px;
+}
+
